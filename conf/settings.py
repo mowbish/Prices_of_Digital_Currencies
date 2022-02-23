@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Prices_of_Digital_Currencies.urls'
+ROOT_URLCONF = 'conf.urls'
 
 TEMPLATES = [
     {
