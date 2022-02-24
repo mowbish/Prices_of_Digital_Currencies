@@ -41,8 +41,7 @@ class UserSignUpSerializer(serializers.ModelSerializer):
         return user
 
 
-class FileDetailSerializer(serializers.ModelSerializer):
-    
+class FileProcessSerializer(serializers.ModelSerializer):
     user = serializers.ReadOnlyField(source='user.username')
 
     class Meta:
